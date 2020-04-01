@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="CSS/styles.css" rel="stylesheet">
 </head>
 <body>
     <h1> AKAN NAMES</h1>
     <h3>Know your Akan name by simply filling this form! </h3>
-    <form name= "myForm" class= "form" onsubmit="validate">
+    <form name= "myForm" class= "form" onsubmit="validate();">
         <div class="form-group"> 
             <label for="year">Year of birth</label></br>
-            <input type="number" class="form-control" name="year" id="year" placeholder="Year of birth eg 2000" max="2020" required>
+            <input type="number" class="form-control" name="year" id="year" placeholder="Year of birth eg 2000" min="1900" max="2020" required> 
 
         </div>
         <div class="form-group">
@@ -37,13 +38,13 @@
         </div>
 
         <div class="submit">
-            <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+            <button type="submit" class="btn btn-primary" onclick="calculateDayValue();">Get Name</button>
         </div>
 
        
     
-    
-    
     </form>
+    <script type="text/javascript" src="JS/scripts.js"></script>
+    
 </body>
 </html>
