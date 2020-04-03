@@ -1,7 +1,7 @@
 ## Akan Names
 
 ## Author
- ***Galgallo Tadicha**
+ **Galgallo Tadicha**
 
 ## Description
 This is a website that calculates a users Akan name based on their birthday and their gender. A user simply fills in their birth date and selects their gender to get their Akan name.

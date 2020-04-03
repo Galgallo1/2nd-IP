@@ -35,35 +35,35 @@ function getName() {
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
   if (dayOfTheWeek == 0 && female.checked == true) {
-    alert("Your Akan Name is " + femaleNames[0]);
+    alert("You were born on a Saturday and your Akan Name is " + femaleNames[6]);
 
 
   } else if (dayOfTheWeek == 1 && female.checked == true)   {
-    alert("Your Akan Name is " + femaleNames[1]);
+    alert("You were born on a Sunday and your Akan Name is " + femaleNames[0]);
   } else if (dayOfTheWeek == 2 && female.checked == true) {
-    alert("Your Akan Name is " + femaleNames[2]);
+    alert("You were born on a Monday and your Akan Name is " + femaleNames[1]);
   } else if (dayOfTheWeek == 3 && female.checked == true) {
-    alert("Your Akan Name is " + femaleNames[3]);
+    alert("You were born on a Tuesday and your Akan Name is " + femaleNames[2]);
   } else if (dayOfTheWeek == 4 && female.checked == true) {
-    alert("Your Akan Name is " + femaleNames[4]);
+    alert("You were born on a Wednesday and your Akan Name is " + femaleNames[3]);
   } else if (dayOfTheWeek == 5 && femal.checked == true) {
-    alert("Your Akan Name is " + femaleNames[5]);
+    alert("You were born on a Thursday and your Akan Name is " + femaleNames[4]);
   } else if (dayOfTheWeek == 6 && female.checked == true) {
-    alert("Your Akan Name is " + femaleNames[6]);
+    alert("You were born on a Friday and your Akan Name is " + femaleNames[5]);
   }  else if (dayOfTheWeek == 0 && male.checked == true) {
-    alert("Your Akan Name is " + maleNames[o]);
+    alert("You were born on a Saturday and your Akan Name is " + maleNames[6]);
   }  else if (dayOfTheWeek == 1 && male.checked == true) {
-    alert("Your Akan Name is " + maleNames[1]);
+    alert("You were born on a Sunday and your Akan Name is " + maleNames[0]);
   }  else if (dayOfTheWeek == 2 && male.checked == true) {
-    alert("Your Akan Name is " + maleNames[2]);
+    alert("You were born on a Monday and your Akan Name is " + maleNames[1]);
   }  else if (dayOfTheWeek == 3 && male.checked == true) {
-    alert("Your Akan Name is " + maleNames[3]);
+    alert("You were born on a Tuesday and your Akan Name is " + maleNames[2]);
   }  else if (dayOfTheWeek == 4 && male.checked == true) {
-    alert("Your Akan Name is " + maleNames[4]);
+    alert("You were born on a Wednesday and your Akan Name is " + maleNames[3]);
   }  else if (dayOfTheWeek == 5 && male.checked == true) {
-    alert("Your Akan Name is " + maleNames[5]);
+    alert("You were born on a Thursday and your Akan Name is " + maleNames[4]);
   }  else if (dayOfTheWeek == 6 && male.checked == true) {
-    alert("Your Akan Name is " + maleNames[6]);
+    alert("You were born on a Friday and your Akan Name is " + maleNames[5]);
   }
 
 
