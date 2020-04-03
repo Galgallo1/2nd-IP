@@ -15,8 +15,6 @@ This is a website that calculates a users Akan name based on their birthday and 
 3. Javascript
 4. BDD
 
-## BDD
-
 
 ## Installation / Setup Instructions
 
@@ -31,15 +29,17 @@ This is a website that calculates a users Akan name based on their birthday and 
 ## Live Page
 <a href="https://galgallo1.github.io/Akan-Name/">Click here to view the website</a>
 
+## BDD
+
 . Enter century of birth eg 20 for 2019, Input Example 20 Output example 20
 
-Enter year of Birth eg 19 for 2019 Input Example 19 Output Example 19
+.  Enter year of Birth eg 19 for 2019 Input Example 19 Output Example 19
 
-Enter month of birth eg 1 for january Input example 1 Output example 1
+.  Enter month of birth eg 1 for january Input example 1 Output example 1
 
-Enter Date of the month you were born in eg 20 input example 20 output example 20
+.  Enter Date of the month you were born in eg 20 input example 20 output example 20
 
-Select gender Input example male output male
+Select gender Input example male or female
 
 Submit. Input example, the program compares the inputs with the conditions set for the inputs eg if No input field is empty, the program executes else an alert to enter valid deatils.
 
@@ -47,15 +47,16 @@ Submit. Input example, the program compares the inputs with the conditions set f
 0 < Month >= 12
 Gender Male or Female.
 
-True value is output. Output example: You were born on Sunday and Your akan name is Kwasi! &nbsp If your gender is Male.
-True value is output. Output example: You were born on Sunday and Your akan name is Akosua! &nbsp If your gender is female.
+True value is output. Output example: You were born on Sunday and Your akan name is Kwasi! 
+True value is output. Output example: You were born on Sunday and Your akan name is Akosua!
+
 Example
 
-century input -- 20
-year input -- 19
-month input -- 7
-date input -- 14
-gender -- male selected, Expected output is You were born on Sunday and Your akan name is Kwasi!
+century input -- 19
+year input -- 97
+month input -- 12
+date input -- 27
+gender -- male selected, Expected output is You were born on Saturday and Your akan name is Kwame!
 
 ## Contact Information
   If you have any queries, dont hesitate to contact me at tadichgalgallo@gmail.com
