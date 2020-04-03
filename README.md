@@ -9,10 +9,57 @@ This is a website that calculates a users Akan name based on their birthday and 
 ## Screenshot
 <img src="Screenshot from 2020-04-03 15-58-19.png" width="800" length="400">
 
-##Technologies Used
+## Technologies Used
 1. HTML
 2. CSS
 3. Javascript
 4. BDD
 
 ## BDD
+
+
+## Installation / Setup Instructions
+
+1. Open Terminal {Ctrl+Alt+T}
+
+2. git clone https://github.com/Galgallo1/Akan-Names.git
+
+3. cd 2nd IP
+
+4. code . or atom . based on the text editor you have.
+
+## Live Page
+<a href="https://galgallo1.github.io/Akan-Name/">Click here to view the website</a>
+
+. Enter century of birth eg 20 for 2019, Input Example 20 Output example 20
+
+Enter year of Birth eg 19 for 2019 Input Example 19 Output Example 19
+
+Enter month of birth eg 1 for january Input example 1 Output example 1
+
+Enter Date of the month you were born in eg 20 input example 20 output example 20
+
+Select gender Input example male output male
+
+Submit. Input example, the program compares the inputs with the conditions set for the inputs eg if No input field is empty, the program executes else an alert to enter valid deatils.
+
+0 < Date >= 31.
+0 < Month >= 12
+Gender Male or Female.
+
+True value is output. Output example: You were born on Sunday and Your akan name is Kwasi! &nbsp If your gender is Male.
+True value is output. Output example: You were born on Sunday and Your akan name is Akosua! &nbsp If your gender is female.
+Example
+
+century input -- 20
+year input -- 19
+month input -- 7
+date input -- 14
+gender -- male selected, Expected output is You were born on Sunday and Your akan name is Kwasi!
+
+## Contact Information
+  If you have any queries, dont hesitate to contact me at tadichgalgallo@gmail.com
+
+## License
+
+**MIT license**
