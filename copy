@@ -1,0 +1,89 @@
+<div class="form-group"> 
+            <label for="year">Year of birth</label></br>
+            <input type="number" class="form-control" name="year" id="year" placeholder="Year of birth eg 2000" min="1900" max="2020" required> 
+
+        </div>
+        <div class="form-group">
+            <label for="month">Month of birth</label></br>
+            <input type="number" class="form-control" name="month" id="month" placeholder="month of birth" min="0" max="12" required>
+
+        </div>
+    
+        <div class="form-group">
+            <label for="date">Date of the month</label></br>
+            <input type="number" class="form-control" name="date" id="date" placeholder="Date of birth" min="0"
+            max="31" required>
+        </div>
+
+        <div class="form-check"> Select your gender </br>
+            <label for="gender"> Female</label>
+            <input type="radio" class="check-label" name="gender" id="female" required>
+        </div>
+
+        <div class="form-check">
+            <label for="gender">Male</label> 
+            <input type="radio" class="check-label" name="gender" id="male" required>
+        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1> AKAN NAMES</h1>
+    <div class="description">
+        <h2>Short Description</h2>
+        <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person.This website helps a user know their Akan name by simply filling in their birthdate and selecting their gender.</p>
+        <h3>Know your Akan name by simply filling this form! </h3>
+    </div>
+    
+    <form name= "myForm" class= "form">
+        <div class="form-group"> 
+            <label for="century">Year of birth</label></br>
+            <input type="number" class="form-control" name="century" id="century" placeholder="century"  required>
+
+        <div class="form-group"> 
+            <label for="year">Year of birth</label></br>
+            <input type="number" class="form-control" name="year" id="year" placeholder="Year of birth" required> 
+
+        </div>
+        <div class="form-group">
+            <label for="month">Month of birth</label></br>
+            <input type="number" class="form-control" name="month" id="month" placeholder="month of birth" min="0" max="12" required>
+
+        </div>
+    
+        <div class="form-group">
+            <label for="date">Date of the month</label></br>
+            <input type="number" class="form-control" name="date" id="date" placeholder="Date of birth" min="0"
+            max="31" required>
+        </div>
+
+        <div class="form-check"> Select your gender </br>
+            <label for="gender"> Female</label>
+            <input type="radio" class="check-label" name="gender" id="female" required>
+        </div>
+
+        <div class="form-check">
+            <label for="gender">Male</label> 
+            <input type="radio" class="check-label" name="gender" id="male" required>
+        </div>
+
+        <div class="submit">
+            <button type="submit" class="btn btn-primary" onclick="getName();">Get Name</button>
+        </div>
+
+       
+    
+    </form>
+    <script type="text/javascript" src="JS/scripts.js"></script>
+    
+</body>
+</html>
+
+
+
+

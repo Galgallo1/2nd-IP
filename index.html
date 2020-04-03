@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="CSS/styles.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Names</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Enriqueta&display=swap" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+    <link rel="icon" type="image/jpeg" href="https://bit.ly/2R3AnRc">
 </head>
+
 <body>
-    <h1> AKAN NAMES</h1>
-    <h2>Shoet Description</h2>
-    <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person.This website helps a user know their Akan name by simply filling in their birthdate and selecting their gender.</p>
-    <h3>Know your Akan name by simply filling this form! </h3>
-    <form name= "myForm" class= "form" onsubmit="validate();">
-        <div class="form-group"> 
-            <label for="year">Year of birth</label></br>
-            <input type="number" class="form-control" name="year" id="year" placeholder="Year of birth eg 2000" min="1900" max="2020" required> 
-
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>AKAN <span>NAMES</span>.</h1>
+                    <p>Akan names are derived from Ghanian culture.Frequently in Ghana, children are given their first
+                        name as a 'day name' which corresponds to the day in the week they were born.
+                        These "day names" have further meanings concerning the soul and character of the person. Middle
+                        names have considerably more variety and can refer to their birth order, twin status, or an
+                        ancestor's middle name.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Female Names</h2>
+                    <ul>
+                        <li>Sunday: Akosua</li>
+                        <li> Monday: Adwoa</li>
+                        <li>Tuesday: Abenaa</li>
+                        <li>Wednesday: Akua</li>
+                        <li>Thursday: Yaa</li>
+                        <li>Friday: Afua</li>
+                        <li>Saturday: Ama</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Male Names</h2>
+                    <ul>
+                        <li>Sunday: Kwasi</li>
+                        <li>Monday: Kwadwo</li>
+                        <li> Tuesday: Kwabena</li>
+                        <li> Wednesday: Kwaku</li>
+                        <li>Thursday: Yaw</li>
+                        <li>Friday: Kofi</li>
+                        <li>Saturday: Kwame</li>
+                    </ul>
+                </div>
+                <div class="class-md-4">
+                    <p><strong>Fill the form to get your <span>Akan</span> name:</strong></p>
+                    <form action="index.html">
+                        <div class="form">
+                            <label for="input-century">Century</label>
+                            <input type="number" class="form" id="main" required placeholder="Century"><br>
+                        </div>
+                        <div class="form">
+                            <label for="input-Day">Day</label>
+                            <input type="number" class="form" id="name" required placeholder="Day"><br>
+                        </div>
+                        <div class="form">
+                            <label for="input-Month">Month</label>
+                            <input type="number" class="form" id="Form" required placeholder="Month"><br>
+                        </div>
+                        <div class="form">
+                            <label for="input-Year">Year</label>
+                            <input type="number" class="form" id="akan" required placeholder="Year"><br>
+                        </div>
+                        <div class="input">
+                            <br><input type="radio" name="gender" class="name" id="input" value="male" required>Male
+                        </div>
+                        <div class="input">
+                            <br><input type="radio" name="gender" class="name" id="input" value="female" required>Female
+                        </div>
+                        <button type="button" name="button" class="click" onclick="naming();">Get the Akan Name</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="month">Month of birth</label></br>
-            <input type="number" class="form-control" name="month" id="month" placeholder="month of birth" min="0" max="12" required>
-
-        </div>
-    
-        <div class="form-group">
-            <label for="date">Date of the month</label></br>
-            <input type="number" class="form-control" name="date" id="date" placeholder="Date of birth" min="0"
-            max="31" required>
-        </div>
-
-        <div class="form-check"> Select your gender </br>
-            <label for="gender"> Female</label>
-            <input type="radio" class="check-label" name="gender" id="female" required>
-        </div>
-
-        <div class="form-check">
-            <label for="gender">Male</label> 
-            <input type="radio" class="check-label" name="gender" id="male" required>
-        </div>
-
-        <div class="submit">
-            <button type="submit" class="btn btn-primary" onclick="getGender();">Get Name</button>
-        </div>
-
-       
-    
-    </form>
-    <script type="text/javascript" src="JS/scripts.js"></script>
-    
+    </div>
+    </div>
 </body>
+
 </html>
