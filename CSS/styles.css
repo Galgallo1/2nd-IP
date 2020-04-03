@@ -1,11 +1,29 @@
 body{
-    background-color: blue;
+    background-image: url(https://fsb.zobj.net/crop.php?r=NxvvIP-idbH-uSE9PbDOmvmtZDi6FyBu9AC9MCR-RYUpIQ6BUsBrqpWcLJydSHsdOlrZaiky22iKsV46iOzvOgwty76XYohlTr4amYuG25GFJEpdBc1OiyEGkEK3Wc0duyylYVMwjCHHnVO6);
     padding-top: 200px;
     padding-bottom: 200px;
     padding-left: 200px;
+    padding-right: 200px;
     align-content: center;
+    text-decoration: maroon;
 }
 
 .myForm{
     align-content: center;
 }
+
+.form-control{
+    size: 200px;
+}
+h1{
+    font-family:sans-serif ;
+    text-shadow: black;
+    
+
+
+}
+.content{
+    background-image: url(https://specials-images.forbesimg.com/imageserve/5da5b8bf6763cb000608c379/960x0.jpg?fit=scale);
+}
+
+
