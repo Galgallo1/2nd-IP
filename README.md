@@ -20,7 +20,7 @@ This is a website that calculates a users Akan name based on their birthday and 
 
 1. Open Terminal {Ctrl+Alt+T}
 
-2. git clone https://github.com/Galgallo1/Akan-Names.git
+2. git clone https://github.com/Galgallo1/Akan-Name.git
 
 3. cd 2nd IP
 
